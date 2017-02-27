@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:300|Passion+One');
+*{
+    font-family: 'Oswald', sans-serif;
+    font-weight:300 !important
+}
+body,html{
+    background:url(//images.weserv.nl/?url=i.imgur.com/IDdzivq.png) no-repeat;
+    background-size:cover;
+    height:100%;
+    text-align:center;
+    padding-top:12vw
+}
+
+.results{
+    font-family: 'Oswald', sans-serif;
+}
+.results h1{
+    font-family: 'Passion One';
+    font-size:44px
+}
+small{
+    clear:both;
+    padding:50px;
+    font-size:0.6em;
+    display:block;
+}

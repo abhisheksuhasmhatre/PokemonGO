@@ -1,0 +1,13 @@
+table{
+    border-spacing: 12px;
+}
+
+iframe{
+    position: fixed;
+    margin-left: 500px;
+    border: transparent;
+}
+
+#background {
+    background-color: whitesmoke;
+}

@@ -1,0 +1,59 @@
+table,td,th,tr,thead,tbody{
+	font-size: 15px;
+	text-decoration: none;
+	border-spacing: 10px;
+	text-align: center;
+	border-collapse: collapse;
+	width: 1000px;
+	border-color: black;
+}
+
+td{
+	border: transparent;
+	background: #D3E0D3;
+	text-align: center;
+	padding: 2em;
+	margin: 1em;
+}
+
+th{
+	border:transparent;
+	background: #D3E0D3;
+	text-align: center;
+	padding: 2em;
+	margin: 1em;
+}
+thead{
+    border: transparent;
+	background-color: #e8e6e1;
+}
+
+.panel-body{
+    margin-left: 20px;
+}
+
+.panel-primary{
+    margin-left: 30px;
+    border-color:black;
+	border: transparent;
+}
+
+#rewardinfo{
+	font-size: 15px;
+	margin-left:70px;
+	margin-top: 10px;
+}
+
+p {
+	font-size: 1.5em;
+	text-align: justify;
+	margin-right: 3em;
+}
+
+.darker {
+	background: #7EA67E;
+}
+
+#background {
+	background-color: whitesmoke;
+}

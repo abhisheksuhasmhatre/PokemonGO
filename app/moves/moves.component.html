@@ -1,0 +1,979 @@
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="moves.component.css" />
+</head>
+
+<body id = "background">
+<div id="rewardinfo"> 
+ 
+<p>  Pokemon have various possible movesets with different levels of damages.
+</p>
+  
+</div>
+
+<table  border="1" align="center" class="data"  cellpadding="0" cellspacing="0">
+    <thead>
+<th class = "darker">Pokémon</th><th class = "darker">Pokémon Type</th><th class = "darker">Fast Attacks (DPS)</th><th class = "darker">Charge Attacks (DPS)</th>
+</thead>
+    <tbody>
+      <tr class="row1 ">
+        <td>Bulbasaur</td>
+        <td>Grass</td>
+        <td>Tackle (10.91)<br/> Vine Whip (10.77)</td>
+        <td>Power Whip (25)<br/>  Sludge Bomb (21.15)<br/> Seed Bomb (16.67)</td>
+      </tr>
+      <tr class="row0 ">
+        <td class = "darker">Ivysaur</td>
+        <td class = "darker">Grass</td>
+        <td class = "darker">Vine Whip (10.77)<br/> Razor Leaf (10.34)</td>
+        <td class = "darker">Power Whip (25)<br/> Solar Beam (24.49)<br/> Sludge Bomb (21.15)</td>
+      </tr>
+      <tr class="row1 ">
+        <td>Venusaur</td>
+        <td>Grass</td>
+        <td>Vine Whip (10.77)<br/> Razor Leaf (10.34)</td>
+        <td>Solar Beam (24.49)<br/> Sludge Bomb (21.15)<br/> Petal Blizzard (20.37)</td>
+      </tr>
+      <tr class="row0 ">
+        <td class = "darker">Charmander</td>
+        <td class = "darker">Fire</td>
+        <td class = "darker">Scratch (12)<br/> Ember (9.52)</td>
+        <td class = "darker">Flamethrower (18.97)<br/> Flame Burst (14.29)<br/> Flame Charge (8.06)</td>
+      </tr>
+      <tr class="row1 ">
+        <td>Charmeleon</td>
+        <td>Fire</td>
+        <td>Scratch (12)<br/> Ember (9.52)</td>
+        <td>Flamethrower (18.97)<br/> Flame Burst (14.29)<br/> Fire Punch (14.29)</td>
+      </tr>
+      <tr class="row0 ">
+        <td class = "darker">Charizard</td>
+        <td class = "darker">Fire</td>
+        <td class = "darker">Wing Attack (12)<br/> Ember (9.52)</td>
+        <td class = "darker">Fire Blast (24.39)<br/> Dragon Claw (23.33)<br/> Flamethrower (18.97)</td>
+      </tr>
+      <tr class="row1 ">
+        <td>Squirtle</td>
+        <td>Water</td>
+        <td>Tackle (10.91)<br/> Bubble (10.87)</td>
+        <td>Aqua Tail (19.15)<br/> Aqua Jet (10.64)<br/> Water Pulse (10.61)</td>
+      </tr>
+      <tr class="row0 ">
+        <td class = "darker">Wartortle</td>
+        <td class = "darker">Water</td>
+        <td class = "darker">Bite (12)<br/> Water Gun (12)</td>
+        <td class = "darker">Hydro Pump (23.68)<br/> Ice Beam (17.81)<br/> Aqua Jet (10.64)</td>
+      </tr>
+      <tr class="row1 ">
+        <td>Blastoise</td>
+        <td>Water</td>
+        <td>Bite (12)<br/> Water Gun (12)</td>
+        <td>Hydro Pump (23.68)<br/> Ice Beam (17.81)<br/> Flash Cannon (15.38)</td>
+      </tr>
+      <tr class="row0 ">
+        <td class = "darker">Caterpie</td>
+        <td class = "darker">Bug</td>
+        <td class = "darker">Bug Bite (11.11)<br/> Tackle (10.91)</td>
+        <td class = "darker">Struggle (8.85)</td>
+      </tr>
+      <tr class="row1 ">
+        <td>Metapod</td>
+        <td>Bug</td>
+        <td>Bug Bite (11.11)<br/> Tackle (10.91)</td>
+        <td>Struggle (8.85)</td>
+      </tr>
+      <tr class="row0 ">
+        <td class = "darker">Butterfree</td>
+        <td class = "darker">Bug<br/> Flying</td>
+        <td class = "darker">Bug Bite (11.11)<br/> Confusion (9.93)</td>
+        <td class = "darker">Psychic (19.64)<br/> Bug Buzz (17.65)<br/> Signal Beam (14.52)</td>
+      </tr>
+      <tr class="row1 ">
+        <td>Weedle</td>
+        <td>Bug</td>
+        <td>Bug Bite (11.11)<br/> Poison Sting (10.43)</td>
+        <td>Struggle (8.85)</td>
+      </tr>
+      <tr class="row0 ">
+        <td class = "darker">Kakuna</td>
+        <td class = "darker">Bug</td>
+        <td class = "darker">Bug Bite (11.11)<br/> Poison Sting (10.43)</td>
+        <td class = "darker">Struggle (8.85)</td>
+      </tr>
+      <tr class="row1 ">
+        <td>Beedrill</td>
+        <td>Bug<br/> Poison</td>
+        <td>Poison Jab (11.43)<br/> Bug Bite (11.11)</td>
+        <td>Sludge Bomb (21.15)<br/> X Scissor (16.67)<br/> Aerial Ace (10.34)</td>
+      </tr>
+      <tr class="row0 ">
+        <td class = "darker">Pidgey</td>
+        <td class = "darker">Normal<br/> Flying</td>
+        <td class = "darker">Tackle (10.91)<br/> Quick Attack (7.52)</td>
+        <td class = "darker">Aerial Ace (10.34)<br/> Twister (9.26)<br/> Air Cutter (9.09)</td>
+      </tr>
+      <tr class="row1 ">
+        <td>Pidgeotto</td>
+        <td>Normal<br/> Flying</td>
+        <td>Wing Attack (12)<br/> Steel Wing (11.28)</td>
+        <td>Aerial Ace (10.34)<br/> Twister (9.26)<br/> Air Cutter (9.09)</td>
+      </tr>
+      <tr class="row0 ">
+        <td class = "darker">Pidgeot</td>
+        <td class = "darker">Normal<br/> Flying</td>
+        <td class = "darker">Wing Attack (12)<br/> Steel Wing (11.28)</td>
+        <td class = "darker">Hurricane (25)<br/> Aerial Ace (10.34)<br/> Air Cutter (9.09)</td>
+      </tr>
+      <tr class="row1 ">
+        <td>Rattata</td>
+        <td>Normal</td>
+        <td>Tackle (10.91)<br/> Quick Attack (7.52)</td>
+        <td>Body Slam (25.64)<br/> Hyper Fang (16.67)<br/> Dig (12.07)</td>
+      </tr>
+      <tr class="row0 ">
+        <td class = "darker">Raticate</td>
+        <td class = "darker">Normal</td>
+        <td class = "darker">Bite (12)<br/> Quick Attack (7.52)</td>
+        <td class = "darker">Hyper Beam (24)<br/>  Hyper Fang (16.67)<br/> Dig (12.07)</td>
+      </tr>
+      <tr class="row1 ">
+        <td>Spearow</td>
+        <td>Normal<br/> Flying</td>
+        <td>Peck (8.7)<br/> Quick Attack (7.52)</td>
+        <td>Drill Peck (14.81)<br/> Aerial Ace (10.34)<br/> Twister (9.26)</td>
+      </tr>
+      <tr class="row0 ">
+        <td class = "darker">Fearow</td>
+        <td class = "darker">Normal<br/> Flying</td>
+        <td class = "darker">Steel Wing (11.28)<br/> Peck (8.7)</td>
+        <td class = "darker">Drill Run (14.71)<br/> Aerial Ace (10.34)<br/> Twister (9.26)</td>
+      </tr>
+      <tr class="row1 ">
+        <td>Ekans</td>
+        <td>Poison</td>
+        <td>Poison Sting (10.43)<br/> Acid (9.52)</td>
+        <td>Gunk Shot (21.67)<br/> Sludge Bomb (21.15)<br/> Wrap (6.25)</td>
+      </tr>
+      <tr class="row0 ">
+        <td class = "darker">Arbok</td>
+        <td class = "darker">Poison</td>
+        <td class = "darker">Bite (12)<br/> Acid (9.52)</td>
+        <td class = "darker">Gunk Shot (21.67)<br/> Sludge Wave (20.59)<br/> Dark Pulse (12.86)</td>
+      </tr>
+      <tr class="row1 ">
+        <td>Pikachu</td>
+        <td>Electric</td>
+        <td>Thunder Shock (8.33)<br/> Quick Attack (7.52)</td>
+        <td>Thunder (23.26)<br/> Thunderbolt (20.37)<br/> Discharge (14)</td>
+      </tr>
+      <tr class="row0 ">
+        <td class = "darker">Raichu</td>
+        <td class = "darker">Electric</td>
+        <td class = "darker">Spark (10)<br/> Thunder Shock (8.33)</td>
+        <td class = "darker">Thunder (23.26)<br/> Brick Break (18.75)<br/> Thunder Punch (16.67)</td>
+      </tr>
+      <tr class="row1 ">
+        <td>Sandshrew</td>
+        <td>Ground</td>
+        <td>Scratch (12)<br/> Mud Shot (10.91)</td>
+        <td>Rock Slide (15.63)<br/> Dig (12.07)<br/> Rock Tomb (8.82)</td>
+      </tr>
+      <tr class="row0 ">
+        <td class = "darker">Sandslash</td>
+        <td class = "darker">Ground</td>
+        <td class = "darker">Metal Claw (12.7)<br/> Mud Shot (10.91)</td>
+        <td class = "darker">Earthquake (23.81)<br/> Bulldoze (10.29)<br/> Rock Tomb (8.82)</td>
+      </tr>
+      <tr class="row1 ">
+        <td>Nidoran (f)</td>
+        <td>Poison</td>
+        <td>Bite (12)<br/> Poison Sting (10.43)</td>
+        <td> Body Slam (25.64)<br/> Sludge Bomb (21.15)<br/> Poison Fang (10.42)</td>
+      </tr>
+      <tr class="row0 ">
+        <td class = "darker">Nidorina</td>
+        <td class = "darker">Poison</td>
+        <td class = "darker">Bite (12)<br/> Poison Sting (10.43)</td>
+        <td class = "darker">Sludge Bomb (21.15)<br/> Dig (12.07)<br/> Poison Fang (10.42)</td>
+      </tr>
+      <tr class="row1 ">
+        <td>Nidoqueen</td>
+        <td>Poison <br/> Ground</td>
+        <td>Bite (12)<br/> Poison Jab (11.43)</td>
+        <td>Stone Edge (25.81)<br/> Earthquake (23.81)<br/> Sludge Wave (20.59)</td>
+      </tr>
+      <tr class="row0 ">
+        <td class = "darker">Nidoran (m)</td>
+        <td class = "darker">Poison</td>
+        <td class = "darker">Poison Sting (10.43)<br/> Peck (8.7)</td>
+        <td class = "darker">Body Slam (25.64)<br/> Sludge Bomb (21.15)<br/> Horn Attack (11.36)</td>
+      </tr>
+      <tr class="row1 ">
+        <td>Nidorino</td>
+        <td>Poison</td>
+        <td>Bite (12)<br/> Poison Jab (11.43)</td>
+        <td>Sludge Bomb (21.59)<br/> Dig (12.07)<br/> Horn Attack(11.36)</td>
+      </tr>
+      <tr class="row0 ">
+        <td class = "darker">Nidoking</td>
+        <td class = "darker">Poison <br/> Ground</td>
+        <td class = "darker">Poison Jab (11.43)<br/> Fury Cutter (7.5)</td>
+        <td class = "darker">Megahorn (25)<br/>Earthquake (23.81)<br/> Sludge Wave (20.59)</td>
+      </tr>
+      <tr class="row1 ">
+        <td>Clefairy</td>
+        <td>Fairy</td>
+        <td>Pound (12.96)<br/> Zen Headbutt (11.43)</td>
+        <td>Body Slam (25.64)<br/> Moonblast (20.73) <br/> Disarming Voice (6.41)</td>
+      </tr>
+      <tr class="row0 ">
+        <td class = "darker">Clefable</td>
+        <td class = "darker">Fairy</td>
+        <td class = "darker">Pound (12.96)<br/> Zen Headbutt (11.43)</td>
+        <td class = "darker">Moonblast (20.73)<br/> Psychic (19.64)<br/> Dazzling Gleam (13.1)</td>
+      </tr>
+      <tr class="row1 ">
+        <td>Vulpix</td>
+        <td>Fire</td>
+        <td>Ember (9.52)<br/> Quick Attack (7.52)</td>
+        <td>Body Slam (25.64)<br/> Flamethrower (18.97)<br/> Flame Charge(8.06)</td>
+      </tr>
+      <tr class="row0 ">
+        <td class = "darker">Ninetails</td>
+        <td class = "darker">Fire</td>
+        <td class = "darker">Feint Attack (11.54)<br/> Ember (9.52)</td>
+        <td class = "darker">Fire Blast (24.39)<br/> Heat Wave (21.05)<br/> Flamethrower (18.97)</td>
+      </tr>
+      <tr class="row1 ">
+        <td>Jigglypuff</td>
+        <td>Normal <br/> Fairy</td>
+        <td>Pound (12.96)<br/> Feint Attack (11.54)</td>
+        <td>Body Slam (25.64)<br/> Play Rough (18.97)<br/> Disarming Voice (6.41)</td>
+      </tr>
+      <tr class="row0 ">
+        <td class = "darker">Wigglytuff</td>
+        <td class = "darker">Normal <br/> Fairy</td>
+        <td class = "darker">Pound (12.96)<br/> Feint Attack (11.54)</td>
+        <td class = "darker">Hyper Beam (24)<br/> Play Rough (18.97)<br/>Dazzling Gleam (13.1)</td>
+      </tr>
+      <tr class="row1 ">
+        <td>Zubat</td>
+        <td>Poison <br/> Flying</td>
+        <td>Bite (12)<br/> Quick Attack (7.52)</td>
+        <td>Sludge Bomb (21.15)<br/> Poison Fang (10.42)<br/> Air Cutter (9.09)</td>
+      </tr>
+      <tr class="row0 ">
+        <td class = "darker">Golbat</td>
+        <td class = "darker">Poison <br/> Flying</td>
+        <td class = "darker">Wing Attack (12)<br/> Bite (12)</td>
+        <td class = "darker">Poison Fang (10.42)<br/> Ominous Wind (9.68)<br/> Air Cutter (9.09)</td>
+      </tr>
+      <tr class="row1 ">
+        <td>Oddish</td>
+        <td>Grass <br/> Poison</td>
+        <td>Razor Leaf (10.34)<br/> Acid (9.52)</td>
+        <td>Sludge Bomb (21.15)<br/> Moonblast (20.73)<br/> Seed Bomb (16.67)</td>
+      </tr>
+      <tr class="row0 ">
+        <td class = "darker">Gloom</td>
+        <td class = "darker">Grass <br/> Poison</td>
+        <td class = "darker">Razor Leaf (10.34)<br/> Acid (9.52)</td>
+        <td class = "darker">Sludge Bomb (21.15)<br/> Moonblast (20.73)<br/> Petal Blizzard (20.31)</td>
+      </tr>
+      <tr class="row1 ">
+        <td>Vileplume</td>
+        <td>Grass <br/> Poison</td>
+        <td>Razor Leaf (10.34)<br/> Acid (9.52)</td>
+        <td>Solar Beam (24.49)<br/> Moonblast (20.73)<br/>Petal Blizzard (20.31)</td>
+      </tr>
+      <tr class="row0 ">
+        <td class = "darker">Paras</td>
+        <td class = "darker">Bug <br/> Grass</td>
+        <td class = "darker">Scratch (12)<br/> Bug Bite (11.11)</td>
+        <td class = "darker">Seed Bomb (16.67)<br/> Cross Poison (16.67)<br/> X Scissor (16.67)</td>
+      </tr>
+      <tr class="row1 ">
+        <td>Parasect</td>
+        <td>Bug <br/> Grass</td>
+        <td>Bug Bite (11.11)<br/> Fury Cutter (7.5)</td>
+        <td>Solar Beam (24.49)<br/> Cross Poison (16.67)<br/> X Scissor (16.67)</td>
+      </tr>
+      <tr class="row0 ">
+        <td class = "darker">Venonat</td>
+        <td class = "darker">Bug <br/> Poison</td>
+        <td class = "darker">Bug Bite (11.11)<br/> Confusion (9.93)</td>
+        <td class = "darker">Signal Beam (14.52)<br/> Psybeam (10.53)<br/> Poison Fang (10.42)</td>
+      </tr>
+      <tr class="row1 ">
+        <td>Venomoth</td>
+        <td>Bug <br/> Poison</td>
+        <td>Bug Bite (11.11)<br/> Confusion (9.93)</td>
+        <td>Psychic (19.64)<br/> Bug Buzz (17.65)<br/> Poison Fang (10.42)</td>
+      </tr>
+      <tr class="row0 ">
+        <td class = "darker">Diglett</td>
+        <td class = "darker">Ground</td>
+        <td class = "darker">Scratch (12)<br/> Mud Slap (11.11)</td>
+        <td class = "darker">Dig (12.07)<br/> Mud Bomb (11.54)<br/> Rock Tomb (8.82)</td>
+      </tr>
+      <tr class="row1 ">
+        <td>Dugtrio</td>
+        <td>Ground</td>
+        <td>Mud Slap (11.11)<br/> Sucker Punch (10)</td>
+        <td>Stone Edge (25.81)<br/> Earthquake (23.81)<br/>  Mud Bomb (11.54)</td>
+      </tr>
+      <tr class="row0 ">
+        <td class = "darker">Meowth</td>
+        <td class = "darker">Normal</td>
+        <td class = "darker">Scratch (12)<br/> Bite (12)</td>
+        <td class = "darker">Body Slam (25.64)<br/> Dark Pulse (12.86)<br/> Night Slash (11.11)</td>
+      </tr>
+      <tr class="row1 ">
+        <td>Persian</td>
+        <td>Normal</td>
+        <td>Scratch (12)<br/> Feint Attack (11.54)</td>
+        <td>Play Rough (18.97)<br/> Power Gem (13.79)<br/> Night Slash (11.11)</td>
+      </tr>
+      <tr class="row0 ">
+        <td class = "darker">Psyduck</td>
+        <td class = "darker">Water</td>
+        <td class = "darker">Water Gun (12)<br/> Zen Headbutt (11.43)</td>
+        <td class = "darker">Cross Chop (30)<br/> Aqua Tail (19.15)<br/> Psybeam (10.53)</td>
+      </tr>
+      <tr class="row1 ">
+        <td>Golduck</td>
+        <td>Water</td>
+        <td>Water Gun (12)<br/> Confusion (9.93)</td>
+        <td>Hydro Pump (23.68)<br/> Psychic (19.64)<br/> Ice Beam (17.81)</td>
+      </tr>
+      <tr class="row0 ">
+        <td class = "darker">Mankey</td>
+        <td class = "darker">Fighting</td>
+        <td class = "darker">Scratch (12)<br/> Karate Chop (7.5)</td>
+        <td class = "darker">Cross Chop (30)<br/> Brick Break (18.75)<br/> Low Sweep (13.33)</td>
+      </tr>
+      <tr class="row1 ">
+        <td>Primape</td>
+        <td>Fighting</td>
+        <td>Low Kick (8.33)<br/>Karate Chop (7.5)</td>
+        <td>Cross Chop (30)<br/>Low Sweep (13.33)<br/> Night Slash (11.11)</td>
+      </tr>
+      <tr class="row0 ">
+        <td class = "darker">Growlithe</td>
+        <td class = "darker">Fire</td>
+        <td class = "darker">Bite (12)<br/> Ember (9.52)</td>
+        <td class = "darker">Body Slam (25.64)<br/> Flamethrower (18.97)<br/> Flame Wheel (8.7)</td>
+      </tr>
+      <tr class="row1 ">
+        <td>Arcanine</td>
+        <td>Fire</td>
+        <td>Bite (12)<br/> Fire Fang (11.9)</td>
+        <td>Fire Blast (24.39)<br/> Flamethrower (18.97)<br/> Bulldoze (10.29)</td>
+      </tr>
+      <tr class="row0 ">
+        <td class = "darker">Poliwag</td>
+        <td class = "darker">Water</td>
+        <td class = "darker">Mud Shot (10.91)<br/> Bubble (10.87)</td>
+        <td class = "darker">Body Slam (25.64)<br/> Mud Bomb (11.54)<br/> Bubble Beam (10.34)</td>
+      </tr>
+      <tr class="row1 ">
+        <td>Poliwhirl</td>
+        <td>Water</td>
+        <td>Mud Shot (10.91)<br/> Bubble (10.87)</td>
+        <td>Scald (13.75)<br/> Mud Bomb (11.54)<br/> Bubble Beam (10.34)</td>
+      </tr>
+      <tr class="row0 ">
+        <td class = "darker">Poliwrath</td>
+        <td class = "darker">Water <br/> Fighting</td>
+        <td class = "darker">Mud Shot (10.91)<br/> Bubble (10.87)</td>
+        <td class = "darker">Hydro Pump (23.68)<br/> Submission (14.29)<br/> Ice Punch (12.86)</td>
+      </tr>
+      <tr class="row1 ">
+        <td>Abra</td>
+        <td>Psychic</td>
+        <td>Zen Headbutt  (11.43)</td>
+        <td>Psyshock (14.81)<br/> Shadow Ball (14.61)<br/> Signal Beam (14.52)</td>
+      </tr>
+      <tr class="row0 ">
+        <td class = "darker">Kadabra</td>
+        <td class = "darker">Psychic</td>
+        <td class = "darker">Psycho Cut (12.28)<br/> Confusion (9.93)</td>
+        <td class = "darker">Shadow Ball (14.61)<br/> Dazzling Gleam (13.1)<br/> Psybeam (10.53)</td>
+      </tr>
+      <tr class="row1 ">
+        <td>Alakazam</td>
+        <td>Psychic</td>
+        <td>Psycho Cut (12.28)<br/> Confusion (9.93)</td>
+        <td>Psychic (19.64)<br/> Shadow Ball (14.61)<br/> Dazzling Gleam (13.1)</td>
+      </tr>
+      <tr class="row0 ">
+        <td class = "darker">Machop</td>
+        <td class = "darker">Fighting</td>
+        <td class = "darker">Low Kick (8.33)<br/> Karate Chop (7.5)</td>
+        <td class = "darker">Cross Chop (30)<br/> Brick Break (18.75)<br/> Low Sweep (13.33)</td>
+      </tr>
+      <tr class="row1 ">
+        <td>Machoke</td>
+        <td>Fighting</td>
+        <td>Low Kick (8.33)<br/> Karate Chop (7.5)</td>
+        <td>Cross Chop (30)<br/> Brick Break (18.75)<br/>Submission (14.29)</td>
+      </tr>
+      <tr class="row0 ">
+        <td class = "darker">Machamp</td>
+        <td class = "darker">Fighting</td>
+        <td class = "darker">Bullet Punch (8.33)<br/> Karate Chop (7.5)</td>
+        <td class = "darker">Cross Chop (30)<br/>Stone Edge (25.81)<br/>Submission (14.29)</td>
+      </tr>
+      <tr class="row1 ">
+        <td>Bellsprout</td>
+        <td>Grass <br/> Poison</td>
+        <td>Vine Whip (10.77)<br/> Acid (9.52)</td>
+        <td>Power Whip (25)<br/> Sludge Bomb (21.15)<br/> Wrap (6.25)</td>
+      </tr>
+      <tr class="row0 ">
+        <td class = "darker">Weepinbell</td>
+        <td class = "darker">Grass <br/> Poison</td>
+        <td class = "darker">Razor Leaf (10.34)<br/> Acid (9.52)</td>
+        <td class = "darker">Power Whip (25)<br/> Sludge Bomb (21.15)<br/> Seed Bomb (16.67)</td>
+      </tr>
+      <tr class="row1 ">
+        <td>Victreebel</td>
+        <td>Grass <br/> Poison</td>
+        <td>Razor Leaf (10.34)<br/> Acid (9.52)</td>
+        <td>Solar Beam (24.49)<br/> Sludge Bomb (21.15)<br/> Leaf Blade (19.64)</td>
+      </tr>
+      <tr class="row0 ">
+        <td class = "darker">Tentacool</td>
+        <td class = "darker">Water <br/> Poison</td>
+        <td class = "darker">Bubble (10.87)<br/> Poison Sting (10.43)</td>
+        <td class = "darker">Water Pulse (10.61)<br/> Bubble Beam (10.34)<br/> Wrap (6.25)</td>
+      </tr>
+      <tr class="row1 ">
+        <td>Tentacruel</td>
+        <td>Water <br/> Poison</td>
+        <td>Poison Jab (11.43)<br/>  Acid (9.52)</td>
+        <td>Blizzard (25.64)<br/> Hydro Pump (23.68)<br/> Sludge Wave (20.59)</td>
+      </tr>
+      <tr class="row0 ">
+        <td class = "darker">Geodude</td>
+        <td class = "darker">Rock <br/> Ground</td>
+        <td class = "darker">Tackle (10.91)<br/> Rock Throw (8.82)</td>
+        <td class = "darker">Rock Slide (15.63)<br/> Dig (12.07)<br/> Rock Tomb (8.82)</td>
+      </tr>
+      <tr class="row1 ">
+        <td>Graveler</td>
+        <td>Rock <br/> Ground</td>
+        <td>Mud Slap (11.11)<br/> Rock Throw (8.82)</td>
+        <td>Stone Edge (25.81)<br/> Rock Slide (15.63)<br/> Dig (12.07)</td>
+      </tr>
+      <tr class="row0 ">
+        <td class = "darker">Golem</td>
+        <td class = "darker">Rock <br/> Ground</td>
+        <td class = "darker">Mud Slap (11.11)<br/> Rock Throw (8.82)</td>
+        <td class = "darker">Stone Edge (25.81)<br/>Earthquake (23.81)<br/> Ancient Power (9.72)</td>
+      </tr>
+      <tr class="row1 ">
+        <td>Ponyta</td>
+        <td>Fire</td>
+        <td>Tackle (10.91)<br/> Ember (9.52)</td>
+        <td>Fire Blast (24.39)<br/> Flame Wheel (8.7)<br/> Flame Charge (8.06)</td>
+      </tr>
+      <tr class="row0 ">
+        <td class = "darker">Rapidash</td>
+        <td class = "darker">Fire</td>
+        <td class = "darker">Ember (9.52)<br/> Low Kick (8.33)</td>
+        <td class = "darker">Fire Blast (24.39)<br/> Heat Wave (21.05)<br/> Drill Run (14.71)</td>
+      </tr>
+      <tr class="row1 ">
+        <td>Slowpoke</td>
+        <td>Water <br/> Psychic</td>
+        <td>Water Gun (12)<br/> Confusion (9.93)</td>
+        <td>Psychic (19.64)<br/> Psyshock (14.81)<br/> Water Pulse (10.61)</td>
+      </tr>
+      <tr class="row0 ">
+        <td class = "darker">Slowbro</td>
+        <td class = "darker">Water <br/> Psychic</td>
+        <td class = "darker">Water Gun (12)<br/> Confusion (9.93)</td>
+        <td class = "darker">Psychic (19.64)<br/> Ice Beam (17.81)<br/>  Water Pulse (10.61)</td>
+      </tr>
+      <tr class="row1 ">
+        <td>Magnemite</td>
+        <td>Electric <br/> Steel</td>
+        <td>Spark (10)<br/> Thunder Shock (8.33)</td>
+        <td>Thunderbolt (20.37)<br/> Discharge (14)<br/> Magnet Bomb (10.71</td>
+      </tr>
+      <tr class="row0 ">
+        <td class = "darker">Magneton</td>
+        <td class = "darker">Electric <br/> Steel</td>
+        <td class = "darker">Spark (10)<br/> Thunder Shock (8.33)</td>
+        <td class = "darker">Flash Cannon (15.38)<br/> Discharge (14)<br/> Magnet Bomb (10.71)</td>
+      </tr>
+      <tr class="row1 ">
+        <td>Farfetch'd</td>
+        <td>Normal <br/> Flying</td>
+        <td>Cut (10.62)<br/> Fury Cutter (7.5)</td>
+        <td>Leaf Blade (19.64)<br/> Aerial Ace (10.34)<br/> Air Cutter (9.09)</td>
+      </tr>
+      <tr class="row0 ">
+        <td class = "darker">Doduo</td>
+        <td class = "darker">Normal <br/> Flying</td>
+        <td class = "darker">Peck (8.7)<br/> Quick Attack (7.52)</td>
+        <td class = "darker">Drill Peck (14.81)<br/> Aerial Ace (10.34)<br/> Swift (10)</td>
+      </tr>
+      <tr class="row1 ">
+        <td>Dodrio</td>
+        <td>Normal <br/> Flying</td>
+        <td>Feint Attack (11.54)<br/> Steel Wing (11.28)</td>
+        <td>Drill Peck (14.81)<br/> Aerial Ace (10.34)<br/> Air Cutter (9.09)</td>
+      </tr>
+      <tr class="row0 ">
+        <td class = "darker">Seel</td>
+        <td class = "darker">Water</td>
+        <td class = "darker">Ice Shard (10.71)<br/> Lick (10)</td>
+        <td class = "darker">Aqua Tail (19.15)<br/> Aqua Jet (10.64)<br/> Icy Wind (6.58)</td>
+      </tr>
+      <tr class="row1 ">
+        <td>Dewgong</td>
+        <td>Water <br/> Ice</td>
+        <td>Frost Breath (11.11)<br/> Ice Shard (10.71)</td>
+        <td>Blizzard (25.64)<br/> Aqua Jet (10.64)<br/> Icy Wind (6.58)</td>
+      </tr>
+      <tr class="row0 ">
+        <td class = "darker">Grimer</td>
+        <td class = "darker">Poison</td>
+        <td class = "darker">Mud Slap (11.11)<br/> Acid (9.52)</td>
+        <td class = "darker">Sludge Bomb (21.15)<br/> Sludge (11.54)<br/> Mud Bomb (11.54)</td>
+      </tr>
+      <tr class="row1 ">
+        <td>Muk</td>
+        <td>Poison</td>
+        <td>Poison Jab (11.43)<br/> Lick (10)</td>
+        <td>Sludge Wave (20.59)<br/> Dark Pulse (12.86)<br/> Sludge Bomb (11.54)</td>
+      </tr>
+      <tr class="row0 ">
+        <td class = "darker">Shellder</td>
+        <td class = "darker">Water</td>
+        <td class = "darker">Tackle (10.91)<br/> Ice Shard (10.71)</td>
+        <td class = "darker">Water Pulse (10.61)<br/> Bubble Beam (10.34)<br/> Icy Wind (6.58)</td>
+      </tr>
+      <tr class="row1 ">
+        <td class = "darker">Cloyster</td>
+        <td class = "darker">Water <br/> Ice</td>
+        <td class = "darker">Frost Breath (11.11)<br/>Ice Shard (10.71)</td>
+        <td class = "darker">Blizzard (25.64)<br/> Hydro Pump (23.68)<br/> Icy Wind (6.58)</td>
+      </tr>
+      <tr class="row0 ">
+        <td>Gastly</td>
+        <td>Ghost <br/> Poison</td>
+        <td>Lick (10)<br/> Sucker Punch (10)</td>
+        <td>Sludge Bomb (21.15)<br/> Dark Pulse (12.86)<br/> Ominous Wind (9.68)</td>
+      </tr>
+      <tr class="row1 ">
+        <td class = "darker">Haunter</td>
+        <td class = "darker">Ghost <br/> Poison</td>
+        <td class = "darker">Shadow Claw (11.58)<br/>Lick (10)</td>
+        <td class = "darker">Sludge Bomb (21.15)<br/> Shadow Ball (14.61)<br/>  Dark Pulse (12.86)</td>
+      </tr>
+      <tr class="row0 ">
+        <td>Gengar</td>
+        <td>Ghost <br/> Poison</td>
+        <td>Shadow Claw (11.58)<br/>Sucker Punch (10)</td>
+        <td>Sludge Bomb (21.15)<br/> Shadow Ball (14.61)<br/>  Dark Pulse (12.86)</td>
+      </tr>
+      <tr class="row1 ">
+        <td class = "darker">Onix</td>
+        <td class = "darker">Rock <br/> Ground</td>
+        <td class = "darker">Tackle (10.91)<br/> Rock Throw (8.82)</td>
+        <td class = "darker">Stone Edge (25.81)<br/> Rock Slide (15.63)<br/> Iron Head (15)</td>
+      </tr>
+      <tr class="row0 ">
+        <td>Drowzee</td>
+        <td>Psychic</td>
+        <td>Pound (12.96)<br/> Confusion (9.93)</td>
+        <td>Psychic (19.64)<br/> Psyshock (14.81)<br/> Psybeam (10.53)</td>
+      </tr>
+      <tr class="row1 ">
+        <td class = "darker">Hypno</td>
+        <td class = "darker">Psychic</td>
+        <td class = "darker">Zen Headbutt (11.43)<br/> Confusion (9.93)</td>
+        <td class = "darker">Psychic (19.64)<br/> Psyshock (14.81)<br/> Shadow Ball (14.61)</td>
+      </tr>
+      <tr class="row0 ">
+        <td>Krabby</td>
+        <td>Water</td>
+        <td>Mud Shot (10.91)<br/> Bubble (10.87)</td>
+        <td>Vice Grip (11.9)<br/> Water Pulse (10.61)<br/> Bubble Beam (10.34)</td>
+      </tr>
+      <tr class="row1 ">
+        <td class = "darker">Kingler</td>
+        <td class = "darker">Water</td>
+        <td class = "darker">Metal Claw (12.7)<br/> Mud Shot (10.91)</td>
+        <td class = "darker">X Scissor (16.67)<br/> Vice Grip (11.9)<br/> Water Pulse (10.61)</td>
+      </tr>
+      <tr class="row0 ">
+        <td>Voltorb</td>
+        <td>Electric</td>
+        <td>Tackle (10.91)<br/> Spark (10)</td>
+        <td>Thunderbolt (20.37)<br/> Signal Beam (14.52)<br/> Discharge (14)</td>
+      </tr>
+      <tr class="row1 ">
+        <td class = "darker">Electrode</td>
+        <td class = "darker">Electric</td>
+        <td class = "darker">Tackle (10.91)<br/> Spark (10)</td>
+        <td class = "darker">Hyper Beam (24)<br/> Thunderbolt (20.37)<br/> Discharge (14)</td>
+      </tr>
+      <tr class="row0 ">
+        <td>Exeggcute</td>
+        <td>Grass <br/> Psychic</td>
+        <td>Confusion (9.93) </td>
+        <td>Psychic (19.64)<br/> Seed Bomb (16.67)<br/> Ancient Power (9.72)</td>
+      </tr>
+      <tr class="row1 ">
+        <td class = "darker">Exeggutor</td>
+        <td class = "darker">Grass <br/> Psychic</td>
+        <td class = "darker">Zen Headbutt (11.43)<br/> Confusion (9.93)</td>
+        <td class = "darker">Solar Beam (24.49)<br/> Psychic (19.64)<br/> Seed Bomb (16.67)</td>
+      </tr>
+      <tr class="row0 ">
+        <td>Cubone</td>
+        <td>Ground</td>
+        <td>Mud Slap (11.11)<br/> Rock Smash (10.64)</td>
+        <td>Bone Club (15.63)<br/> Dig (12.07)<br/> Bulldoze (10.29)</td>
+      </tr>
+      <tr class="row1 ">
+        <td class = "darker">Marowak</td>
+        <td class = "darker">Ground</td>
+        <td class = "darker"> Mud Slap (11.11)<br/> Rock Smash (10.64)</td>
+        <td class = "darker">Earthquake (23.81)<br/>Bone Club (15.63)<br/> Dig (12.07)</td>
+      </tr>
+      <tr class="row0 ">
+        <td>Hitmonlee</td>
+        <td>Fighting</td>
+        <td>Rock Smash (10.64)<br/> Low Kick (8.33)</td>
+        <td>Stone Edge (25.81)<br/> Brick Break (18.75)<br/> Low Sweep (13.33)</td>
+      </tr>
+      <tr class="row1 ">
+        <td class = "darker">Hitmonchan</td>
+        <td class = "darker">Fighting</td>
+        <td class = "darker">Rock Smash (10.64)<br/> Bullet Punch (8.33)</td>
+        <td class = "darker">Brick Break (18.75)<br/> Thunder Punch (16.67)<br/> Fire Punch (14.29)<br/> Ice Punch (12.86)</td>
+      </tr>
+      <tr class="row0 ">
+        <td>Lickitung</td>
+        <td>Normal</td>
+        <td>Zen Headbutt (11.43)<br/> Lick (10)</td>
+        <td>Power Whip (25)<br/> Hyper Beam (24)<br/> Stomp (14.29)</td>
+      </tr>
+      <tr class="row1 ">
+        <td class = "darker">Koffing</td>
+        <td class = "darker">Poison</td>
+        <td class = "darker">Tackle (10.91)</td>
+        <td class = "darker">Sludge Bomb (21.15)<br/> Dark Pulse (12.86)<br/> Sludge (11.54)</td>
+      </tr>
+      <tr class="row0 ">
+        <td>Weezing</td>
+        <td>Poison</td>
+        <td>Tackle (10.91)</td>
+        <td>Sludge Bomb (21.15)<br/> Shadow Ball (14.61) <br/> Dark Pulse (12.86)</td>
+      </tr>
+      <tr class="row1 ">
+        <td class = "darker">Rhyhorn</td>
+        <td class = "darker">Ground <br/> Rock</td>
+        <td class = "darker"> Mud Slap (11.11)<br/> Rock Smash (10.64)</td>
+        <td class = "darker">Stomp (14.29)<br/> Horn Attack (11.36)<br/> Bulldoze (10.29)</td>
+      </tr>
+      <tr class="row0 ">
+        <td>Rhydon</td>
+        <td>Ground <br/> Rock</td>
+        <td>Mud Slap (11.11)<br/> Rock Smash (10.64)</td>
+        <td>Stone Edge (25.81)<br/> Megahorn (25)<br/> Earthquake (23.81)</td>
+      </tr>
+      <tr class="row1 ">
+        <td class = "darker">Chansey</td>
+        <td class = "darker">Normal</td>
+        <td class = "darker">Pound (12.96)<br/> Zen Headbutt (11.43)</td>
+        <td class = "darker"> Hyper Beam (24)<br/> Psychic (19.64)<br/>Dazzling Gleam (13.1) </td>
+      </tr>
+      <tr class="row0 ">
+        <td>Tangela</td>
+        <td>Grass</td>
+        <td>Vine Whip (10.77)</td>
+        <td>Power Whip (25)<br/> Solar Beam (24.49)<br/> Sludge Bomb (21.15)</td>
+      </tr>
+      <tr class="row1 ">
+        <td class = "darker">Kangaskhan</td>
+        <td class = "darker">Normal</td>
+        <td class = "darker">Mud Slap (11.11)<br/> Low Kick (8.33)</td>
+        <td class = "darker">Earthquake (23.81)<br/> Brick Break (18.75)<br/> Stomp (14.29)</td>
+      </tr>
+      <tr class="row0 ">
+        <td>Horsea</td>
+        <td>Water</td>
+        <td>Water Gun (12)<br/> Bubble (10.87)</td>
+        <td>Dragon Pulse (10.08)<br/> Flash Cannon (15.38)<br/> Bubble Beam (10.34)</td>
+      </tr>
+      <tr class="row1 ">
+        <td class = "darker">Seadra</td>
+        <td class = "darker">Water</td>
+        <td class = "darker">Water Gun (12)<br/> Dragon Breath (12)</td>
+        <td class = "darker">Blizzard (25.64)<br/> Hydro Pump (23.68)<br/> Dragon Pulse (18.06)</td>
+      </tr>
+      <tr class="row0 ">
+        <td>Goldeen</td>
+        <td>Water</td>
+        <td>Mud Shot (10.91)<br/> Peck (8.7)</td>
+        <td>Aqua Tail (19.15)<br/> Horn Attack (11.36)<br/> Water Pulse (10.61)</td>
+      </tr>
+      <tr class="row1 ">
+        <td class = "darker">Seaking</td>
+        <td class = "darker">Water</td>
+        <td class = "darker">Poison Jab (11.43)<br/> Peck (8.7)</td>
+        <td class = "darker">Megahorn (25)<br/> Drill Run (14.71)<br/> Icy Wind (6.58)</td>
+      </tr>
+      <tr class="row0 ">
+        <td>Staryu</td>
+        <td>Water</td>
+        <td>Water Gun (12)<br/> Tackle (10.91)</td>
+        <td> Power Gem (13.79)<br/> Bubble Beam (10.34)<br/> Swift (10)</td>
+      </tr>
+      <tr class="row1 ">
+        <td class = "darker">Starmie</td>
+        <td class = "darker">Water <br/> Psychic</td>
+        <td class = "darker">Water Gun (12)<br/> Tackle (10.91)</td>
+        <td class = "darker">Hydro Pump (23.69)<br/> Psychic (19.64)<br/> Power Gem (13.79)</td>
+      </tr>
+      <tr class="row0 ">
+        <td>Mr. Mime</td>
+        <td>Psychic <br/> Fairy</td>
+        <td>Zen Headbutt (11.43)<br/> Confusion (9.93)</td>
+        <td>Psychic (19.64)<br/> Shadow Ball (14.61)<br/> Psybeam (10.53)</td>
+      </tr>
+      <tr class="row1 ">
+        <td class = "darker">Scyther</td>
+        <td class = "darker">Bug <br/> Flying</td>
+        <td class = "darker">Steel Wing (11.28)<br/> Fury Cutter (7.5)</td>
+        <td class = "darker">Bug Buzz (17.65)<br/> X Scissor (16.67)<br/> Night Slash (11.11)</td>
+      </tr>
+      <tr class="row0 ">
+        <td>Jynx</td>
+        <td>Ice <br/> Psychic</td>
+        <td>Pound (12.96)<br/> Frost Breath (11.11)</td>
+        <td>Psyshock (14.81)<br/> Ice Punch (12.86)<br/> Draining Kiss (8.93)</td>
+      </tr>
+      <tr class="row1 ">
+        <td class = "darker">Electabuzz</td>
+        <td class = "darker">Electric</td>
+        <td class = "darker">Thunder Shock (8.33)<br/> Low Kick (8.33)</td>
+        <td class = "darker">Thunder (23.26)<br/> Thunderbolt (20.37)<br/> Thunder Punch (16.67)</td>
+      </tr>
+      <tr class="row0 ">
+        <td>Magmar</td>
+        <td>Fire</td>
+        <td> Ember (9.52)<br/> Karate Chop (7.5)</td>
+        <td>Fire Blast (24.39)<br/> Flamethrower (18.97)<br/> Fire Punch (14.29)</td>
+      </tr>
+      <tr class="row1 ">
+        <td class = "darker">Pinsir</td>
+        <td class = "darker">Bug</td>
+        <td class = "darker">Rock Smash (10.64)<br/> Fury Cutter (7.5)</td>
+        <td class = "darker">X Scissor (16.67)<br/> Submission (14.29)<br/> Vice Grip (11.9)</td>
+      </tr>
+      <tr class="row0 ">
+        <td>Tauros</td>
+        <td>Normal</td>
+        <td>Zen Headbutt (11.43)<br/> Tackle (10.91)</td>
+        <td>Earthquake (23.81)<br/> Iron Head (15)<br/> Horn Attack (11.36)</td>
+      </tr>
+      <tr class="row1 ">
+        <td class = "darker">Magikarp</td>
+        <td class = "darker">Water</td>
+        <td class = "darker">Splash (0)</td>
+        <td class = "darker">Struggle (8.85)</td>
+      </tr>
+      <tr class="row0 ">
+        <td>Gyarados</td>
+        <td>Water <br/> Flying </td>
+        <td>Bite (12)</td>
+        <td>Hydro Pump (23.68)<br/> Dragon Pulse (18.06)<br/> Twister (9.26)</td>
+      </tr>
+      <tr class="row1 ">
+        <td class = "darker">Lapras</td>
+        <td class = "darker">Water <br/> Ice</td>
+        <td class = "darker">Frost Breath (11.11)<br/> Ice Shard (10.71)</td>
+        <td class = "darker">Blizzard (25.64)<br/> Dragon Pulse (18.06)<br/> Ice Beam (17.81)</td>
+      </tr>
+      <tr class="row0 ">
+        <td>Ditto</td>
+        <td>Normal</td>
+        <td>Transform (N/A)</td>
+        <td>Struggle (8.85)</td>
+      </tr>
+      <tr class="row1 ">
+        <td class = "darker">
+          <a href="http://www.eurogamer.net/articles/2016-08-22-pokemon-go-eevee-evolution-how-to-evolve-eevee-into-vaporeon-jolteon-and-flareon">Eevee</a>
+        </td>
+        <td class = "darker">Normal</td>
+        <td class = "darker">Tackle (10.91)<br/> Quick Attack (7.52)</td>
+        <td class = "darker">Body Slam (25.64)<br/> Dig (12.07)<br/> Swift (10)</td>
+      </tr>
+      <tr class="row0 ">
+        <td>Vaporeon</td>
+        <td>Water</td>
+        <td>Water Gun (12)</td>
+        <td>Hydro Pump (23.68) <br/> Aqua Tail (19.15)<br/> Water Pulse (10.61</td>
+      </tr>
+      <tr class="row1 ">
+        <td class = "darker">Jolteon</td>
+        <td class = "darker">Electric</td>
+        <td class = "darker">Thunder Shock (8.33) </td>
+        <td class = "darker">Thunder (23.26)<br/> Thunderbolt (20.37)<br/> Discharge (14)</td>
+      </tr>
+      <tr class="row0 ">
+        <td>Flareon</td>
+        <td>Fire</td>
+        <td>Ember (9.52</td>
+        <td>Fire Blast (24.39)<br/> Heat Wave (21.05)<br/> Flamethrower (18.97)</td>
+      </tr>
+      <tr class="row1 ">
+        <td class = "darker">Porygon</td>
+        <td class = "darker">Normal</td>
+        <td class = "darker">Tackle (10.91)<br/> Zen Headbutt (11.43)</td>
+        <td class = "darker">Signal Beam (14.52)<br/> Discharge (14)<br/> Psybeam (10.53)</td>
+      </tr>
+      <tr class="row0 ">
+        <td>Omanyte</td>
+        <td>Rock <br/> Water</td>
+        <td>Water Gun (12)<br/> Mud Shot (10.91)</td>
+        <td>Brine (10.42)<br/> Ancient Power (9.72)<br/> Rock Tomb (8.82)</td>
+      </tr>
+      <tr class="row1 ">
+        <td class = "darker">Omastar</td>
+        <td class = "darker">Rock <br/> Water</td>
+        <td class = "darker">Water Gun (12)<br/> Mud Shot (10.91)</td>
+        <td class = "darker">Hydro Pump (23.68)<br/> Rock Slide (15.63)<br/> Ancient Power (9.72)</td>
+      </tr>
+      <tr class="row0 ">
+        <td>Kabuto</td>
+        <td>Rock <br/> Water</td>
+        <td>Scratch (12)<br/> Mud Shot (10.91)</td>
+        <td>Aqua Jet (10.64)<br/> Ancient Power (9.72)<br/> Rock Tomb (8.82)</td>
+      </tr>
+      <tr class="row1 ">
+        <td class = "darker">Kabutops</td>
+        <td class = "darker">Rock <br/> Water</td>
+        <td class = "darker">Mud Shot (10.91)<br/> Fury Cutter (7.5)</td>
+        <td class = "darker">Stone Edge (25.81)<br/> Water Pulse (10.61)<br/>  Ancient Power (9.72)</td>
+      </tr>
+      <tr class="row0 ">
+        <td>Aerodactyl</td>
+        <td>Rock <br/> Flying</td>
+        <td>Bite (12)<br/> Steel Wing (11.28)</td>
+        <td>Hyper Beam (24)<br/> Iron Head (15)<br/> Ancient Power (9.72)</td>
+      </tr>
+      <tr class="row1 ">
+        <td class = "darker">Snorlax</td>
+        <td class = "darker">Normal</td>
+        <td class = "darker"> Zen Headbutt (11.43)<br/> Lick (10)</td>
+        <td class = "darker">Body Slam (25.64)<br/> Hyper Beam (24)<br/> Earthquake (23.81)</td>
+      </tr>
+      <tr class="row0 ">
+        <td>Articuno</td>
+        <td>Ice <br/> Flying</td>
+        <td>Frost Breath</td>
+        <td>Blizzard (25.64)<br/> Ice Beam (17.81)<br/> Icy Wind (6.58)</td>
+      </tr>
+      <tr class="row1 ">
+        <td class = "darker">Zapdos</td>
+        <td class = "darker">Electric</td>
+        <td class = "darker">Thunder Shock (8.33)</td>
+        <td class = "darker">Thunder (23.26)<br/> Thunderbolt (20.37)<br/> Discharge (14)</td>
+      </tr>
+      <tr class="row0 ">
+        <td>Moltres</td>
+        <td>Fire</td>
+        <td>Ember (9.52)</td>
+        <td>Fire Blast (24.39)<br/> Heat Wave (21.05)<br/> Flamethrower (18.97)</td>
+      </tr>
+      <tr class="row1 ">
+        <td class = "darker">Dratini</td>
+        <td class = "darker">Dragon</td>
+        <td class = "darker">Dragon Breath (12)</td>
+        <td class = "darker">Aqua Tail (19.15)<br/> Twister (9.26)<br/> Wrap (6.25)</td>
+      </tr>
+      <tr class="row0 ">
+        <td>Dragonair</td>
+        <td>Dragon</td>
+        <td>Dragon Breath (12)</td>
+        <td>Dragon Pulse (18.06)<br/> Aqua Tail (19.15)<br/> Wrap (6.25)</td>
+      </tr>
+      <tr class="row1 ">
+        <td class = "darker">Dragonite</td>
+        <td class = "darker">Dragon <br/> Flying</td>
+        <td class = "darker">Dragon Breath (12)<br/> Steel Wing (11.28)</td>
+        <td class = "darker">Hyper Beam (24)<br/> Dragon Claw (23.33)<br/> Dragon Pulse (18.06)</td>
+      </tr>
+      <tr class="row0 ">
+        <td>Mewtwo</td>
+        <td>Psychic</td>
+        <td>Psycho Cut (12.28)<br/> Confusion (9.93)</td>
+        <td>Hyper Beam (24)<br/> Psychic (19.64)<br/> Shadow Ball (14.61)</td>
+      </tr>
+      <tr class="row1 ">
+        <td class = "darker">Mew</td>
+        <td class = "darker">Psychic</td>
+        <td class = "darker">Pound (12.96)</td>
+        <td class = "darker">Hurricane (25)<br/> Solar Beam (24.49)<br/> Fire Blast (24.39)<br/> Hyper Beam (24)<br/> Earthquake (23.81)<br/> Thunder (23.26)<br/> Moonblast (20.73)<br/> Psychic (19.64)<br/> Dragon Pulse (18.06)</td>
+      </tr>
+      <tr class="row0 ">
+        <td>Pichu</td>
+        <td>Electric</td>
+        <td>Thunder Shock (8.33)<br/> Quick Attack (7.52)</td>
+        <td>Thunderbolt (20.37)<br/> Thunder Punch (16.67)<br/> Disarming Voice (6.41)</td>
+      </tr>
+      <tr class="row1 ">
+        <td class = "darker">Cleffa</td>
+        <td class = "darker">Fairy</td>
+        <td class = "darker">Pound (12.96)<br/> Zen Headbutt (11.43)</td>
+        <td class = "darker">Psychic (19.64)<br/> Signal Beam (14.52)</td>
+      </tr>
+      <tr class="row0 ">
+        <td>Igglybuff</td>
+        <td>Normal<br/> Fairy</td>
+        <td>Pound (12.96)<br/> Feint Attack (11.54)</td>
+        <td>Body Slam (25.64)<br/>Psychic (19.64)<br/> Shadow Ball (14.61)</td>
+      </tr>
+      <tr class="row1 ">
+        <td class = "darker">Togepi</td>
+        <td class = "darker">Fairy</td>
+        <td class = "darker">Zen Headbutt (11.43)<br/> Peck (8.7)</td>
+        <td class = "darker">Psyshock (14.81)<br/> Dazzling Gleam (13.1)<br/> Ancient Power (9.72)</td>
+      </tr>
+      <tr class="row0 ">
+        <td>Togetic</td>
+        <td>Fairy<br/> Flying</td>
+        <td>Zen Headbutt (11.43)<br/> Steel Wing (11.28)</td>
+        <td><br/> Dazzling Gleam (13.1)<br/> Aerial Ace (10.34)<br/> Ancient Power (9.72)</td>
+      </tr>
+      <tr class="row1 ">
+        <td class = "darker">Smoochum</td>
+        <td class = "darker">Ice<br/> Psychic</td>
+        <td class = "darker">Pound (12.96)<br/> Frost Breath (11.11)</td>
+        <td class = "darker">Ice Beam (17.81)<br/> Psyshock (14.81)<br/> Ice Punch (12.86)</td>
+      </tr>
+      <tr class="row0 ">
+        <td>Elekid</td>
+        <td>Electric</td>
+        <td>Thunder Shock (8.33)<br/> Low Kick (8.33)</td>
+        <td>hunderbolt (20.37)<br/> Thunder Punch (16.67)<br/> Discharge (14)</td>
+      </tr>
+      <tr class="row1 ">
+        <td class = "darker">Magby</td>
+        <td class = "darker">Fire</td>
+        <td class = "darker">Ember (9.52)<br/> Karate Chop (7.5)</td>
+        <td class = "darker">Flamethrower (18.97)<br/> Brick Break (18.75)<br/> Fire Punch (14.29)</td>
+      </tr>
+    </tbody>
+  </table>
+
+  </body>
+  

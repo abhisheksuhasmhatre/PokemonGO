@@ -1,0 +1,9 @@
+th,tr,thead{
+
+    border: transparent;
+    background-color: #e8e6e1;
+}
+
+td{
+    background-color: white;
+}

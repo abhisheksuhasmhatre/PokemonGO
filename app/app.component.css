@@ -1,0 +1,26 @@
+#bg{
+
+    background-image: url("./app/assets/images/bg1.png");
+}
+
+
+li {
+    font-size: large;
+    
+}
+
+div.panel-heading {
+   font-size: x-large; 
+}
+
+#main ul{
+
+   background-color: #e8e6e1;
+   
+}
+
+div.container-fluid{
+
+    color:red;
+}
+

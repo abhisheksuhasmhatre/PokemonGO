@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="evolve.component.css" />
+
+  <script>
+
+    //working logic
+
+    var pkmn = {
+        'Abra':[1.36,1.95,'kadabra'],
+        'Bellsprout':[1.54,1.6,'weepinbell'],
+        'Bulbasaur':[1.53,1.58,'ivysaur'],
+        'Caterpie':[1.04,1.08,'metapod'],
+        'Charmander':[1.64,1.7,'charmeleon'],
+        'Charmeleon':[1.71,1.79,'charizard'],
+        'Clefairy':[2.03,2.14,'clefable'],
+        'Cubone':[1.65,1.67,'marowak'],
+        'Dratini':[1.79,1.85,'dragonair'],
+        'Diglett':[2.68,2.77,'dugtrio'],
+        'Doduo':[2.19,2.30,'dodrio'],
+        'Dragonair':[2.03,2.08,'dragonite'],
+        'Drowzee':[2.06,2.09,'hypno'],
+        'Eevee':[2.02,2.64,'vaporeon'],
+        'Exeggcute':[2.70,3.18,'exeggutor'],
+        'Ekans':[2.21,2.27,'arbok'],
+        'Gastly':[1.75,1.83,'haunter'],
+        'Gloom':[1.48,1.53,'vileplume'],
+        'Goldeen':[2.14,2.24,'seaking'],
+        'Geodude':[1.70,1.76,'graveler'],
+        'Graveler':[1.62,1.72,'golem'],
+        'Grimer':[2.01, 2.44,'muk'],
+        'Growlithe':[2.31,2.36,'arcanine'],
+        'Haunter':[1.56,1.8,'gengar'],
+        'Horsea':[2.19,2.23,'seadra'],
+        'Ivysaur':[1.2,1.6,'venusaur'],
+        'Jigglypuff':[2.41,2.47,'wigglytuff'],
+        'Kabuto':[1.97,2.37,'kabutops'],
+        'Kadabra':[1.4,1.65,'alakazam'],
+        'Kakuna':[3.01,3.42,'beedrill'],
+        'Koffing':[1.95,2.025,'weezing'],
+        'Krabby':[2.32,2.4,'kingler'],
+        'Machoke':[1.48,1.7,'machamp'],
+        'Machop':[1.62,1.67,'machoke'],
+        'Magikarp':[10.1,11.8,'gyarados'],
+        'Metapod':[3.55,3.79,'butterfree'],
+        'Mankey':[2.17,2.28,'primeape'],
+        'Magnemite':[2.16,2.18,'magneton'],
+        'Meowth':[1.98,2.24,'persian'],
+        'Nidoran-m':[1.64,1.7,'nidorino'],
+        'Nidoran-f':[1.62,1.66,'nidorina'],
+        'Nidorino':[1.64,1.86,'nidoking'],
+        'Nidorina':[1.83,2.48,'nidoqueen'],
+        'Oddish':[1.48,1.51,'gloom'],
+        'Omanyte':[1.99,2.12,'omastar'],
+        'Paras':[1.92,2.02,'parasect'],
+        'Pidgeotto':[1.73,1.80,'pidgeot'],
+        'Pidgey':[1.71,1.95,'pidgeotto'],
+        'Pikachu':[2.33,2.38,'raichu'],
+        'Poliwag':[1.72,1.77,'poliwhirl'],
+        'Poliwhirl':[1.9,1.96,'poliwrath'],
+        'Ponyta':[1.46,1.5,'rapidash'],
+        'Psyduck':[2.22,2.29,'golduk'],
+        'Rattata':[2.55,2.73,'raticate'],
+        'Rhyhorn':[1.9,1.91,'Rhydon'],
+        'Sandshrew':[2.30,2.76,'sandslash'],
+        'Seel':[1.04,1.96,'dewgong'],
+        'Shellder':[2.62,2.65,'cloyster'],
+        'Slowpoke':[2.19,2.21,'slowbro'],
+        'Spearow':[2.58,2.81,'fearow'],
+        'Squirtle':[1.58,2.1,'wartortle'],
+        'Staryu':[2.35,2.41,'starmie'],
+        'Tentacool':[2.47,2.6,'tentacruel'],
+        'Venonat':[1.86,1.9,'venomoth'],
+        'Voltorb':[2.01,2.02,'electrode'],
+        'Vulpix':[2.74,2.81,'ninetales'],
+        'Wartortle':[1.4,1.65,'blastoise'],
+        'Weedle':[1.06,1.13,'kakuna'],
+        'Weepinbell':[1.47,1.59,'victreebel'],
+        'Zubat':[2.6,3.67,'golbat'],
+    };
+
+    for(var k in pkmn){
+        $("#calc select").append("<option>"+k);
+    }
+
+    $("#calc").change(function(e){
+        var p = $("#calc").find("select").val();
+        $(".results h3").html("<img src='https://silphroad-s3-xika4hn.netdna-ssl.com/img/pokemon/animated/"+p.toLowerCase()+".gif'><br>"+p);
+    });
+
+    $("#calc").submit(function(e){
+        var p = $("#calc").find("select").val();
+        var k = parseInt($("#calc .cp").val(),10);
+        var m = Math.round(pkmn[p][0] * k);
+        var n = Math.round(pkmn[p][1] * k);
+        e.preventDefault();
+        $(".results h3").html("</h3><img src='https://silphroad-s3-xika4hn.netdna-ssl.com/img/pokemon/animated/"+pkmn[p][2]+".gif'><br>"+p+" evolved to<h1>"+pkmn[p][2].toUpperCase()+"</h1>");
+        $(".results b").text("Approx "+m+" to "+n+" CP");
+        return false;
+    });
+
+  </script>
+
+</head>
+<body>
+<div class="form-group col-sm-6">
+    <form name="calc" id="calc">
+        <label>Pokemon:</label>
+        <select class="form-control">
+            <option value="Pikachu">Select Pokemon</select>
+        <label>Current CP:</label>
+        <input class="form-control cp" type="number" min="10" max="2500" value="10">
+        <br>
+        <input type="submit" class="btn btn-primary" value="Evolve">
+    </form>
+</div>
+<div class="col-sm-6 results">
+    <h3><img src="https://silphroad-s3-xika4hn.netdna-ssl.com/img/pokemon/animated/pikachu.gif"><br>Calculate</h3>
+    <b>Aproximate CP will display here</b>
+</div>
+
+</body>
+</html>

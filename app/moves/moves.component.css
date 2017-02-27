@@ -1,0 +1,69 @@
+body{
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+table,td,th,tr,thead,tbody{
+	font-size: 15px;
+	text-decoration: none;
+	margin-top: 30px;
+	border-spacing: 10px;
+	text-align: center;
+	border-collapse: collapse;
+	width: 1000px;
+	border-color: black;
+}
+td{
+	 border: transparent;
+	background: #D3E0D3;
+}
+
+tr{
+	border: 1px solid silver;
+	background: white;
+}
+
+th{
+	border:transparent;
+	padding: 1em;
+	background: #D3E0D3;
+}
+
+thead{
+    border: transparent;
+	background-color: #e8e6e1;
+}
+
+.panel-body{
+    margin-left: 30px;
+}
+
+.panel-primary{
+    margin-left: 30px;
+    border-color:black;
+	border: transparent;
+}
+
+#rewardinfo{
+	font-size: 15px;
+	margin-left:70px;
+	margin-top: 10px;
+}
+
+p {
+	font-size: 1.5em;
+	text-align: justify;
+	margin-right: 3em;
+	padding-bottom: 0.5em;
+	padding-top: 1em;
+}
+
+#background {
+	background-color: whitesmoke;
+}
+
+.darker {
+	background: #7EA67E;
+}
+
